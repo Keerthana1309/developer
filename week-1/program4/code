@@ -8,7 +8,7 @@ class Main
 {
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(new File("Input");
+        Scanner sc=new Scanner(new File("week-1/program4/Input"));
         int number=sc.nextInt();
         System.out.println(MinNumberOfReplacements(number));
     }
