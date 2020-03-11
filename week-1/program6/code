@@ -4,7 +4,7 @@ class Main
 {
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(new File("Input.txt");
+        Scanner sc=new Scanner(new File("week-1/program6/Input");
         int n=sc.nextInt();
         int[] array=new int[n];
         for(int i=0;i<n;i++)
