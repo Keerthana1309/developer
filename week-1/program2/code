@@ -5,7 +5,7 @@ class Main
 {
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(new File("week-1/program2/Input"));
         int a=sc.nextInt();
         int b=sc.nextInt();
         int c=sc.nextInt();
