@@ -1,0 +1,29 @@
+/*Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in their binary representation and return them as an array*/
+import java.io.*;
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(new File(""));
+        int num=sc.nextInt();
+        System.out.println(CountNoOfOnes(num));
+    }
+    static Vector<Integer> CountNoOfOnes(int num)
+    {
+        Vector<Integer> ans=new Vector<Integer>();
+        ans.add(0);
+        for(int i=1;i<=num;i++)
+        {
+            int count=0;
+            int n=i;
+            while(n>0)
+            {
+                n&=n-1;
+                count++;
+            }
+            ans.add(count);
+        }
+        return ans;
+    }
+}
