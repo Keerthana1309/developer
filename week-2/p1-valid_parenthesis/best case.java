@@ -13,13 +13,21 @@ class valid_parenthesis
       static int ValidParenthesis(int open,int close)
       {
             if(open==0&&close==0)
+            {
                count++;
+            }
             if(open>close)
+            {
                 return count;
+            }
             if(open>0)
+            {
                 ValidParenthesis(open-1,close);
+            }
             if(close>0)
+            {
                 ValidParenthesis(open,close-1);
+            }
             return count;
       }
 }
