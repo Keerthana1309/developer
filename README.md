@@ -1,5 +1,5 @@
 - Training
-1. 
+1. Done(Tue)
 2. 
 3. Done(Mon)
 4. 
