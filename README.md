@@ -13,7 +13,7 @@
 - Review
 1. 
 2. 
-3. Review Done. Use binary search instead of recursion
+3. Review Done. Use binary search along with recursion
 4. 
 5. 
 6. 
